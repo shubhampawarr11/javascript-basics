@@ -13,6 +13,8 @@ let age = 18; // number
 let isLoggedIn = false // boolean
 let value; // undefined
 let sum = null; // null value means it is empty
+let huge = 90987655446543378n; // For numbers larger than the Number
+let sym = Symbol("id"); // A unique and immutable identifier
 
 // number => 2 to power 53
 // bigInt => Big Values Present
