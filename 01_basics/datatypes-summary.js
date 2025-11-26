@@ -37,3 +37,31 @@ const myFunction = function () {
     console.log("Hello World");
 }
 myFunction();
+
+
+// ***** Memory Allocation in JS *****
+
+// Stack (Primitive)
+
+let myYoutubename = "spdotcom";
+
+let anothername = myYoutubename;
+anothername = "chaikesathcode";
+
+console.log(myYoutubename);
+console.log(anothername);
+
+
+// Heap (Non-Primitive)
+
+let userOne = {
+    email: "user@gogle.com",
+    upi: "user@ybl",
+};
+
+let userTwo = userOne;
+
+userTwo.email = "sp@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
